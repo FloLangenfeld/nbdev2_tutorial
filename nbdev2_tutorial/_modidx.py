@@ -5,4 +5,6 @@ d = { 'settings': { 'branch': 'main',
                 'doc_host': 'https://FloLangenfeld.github.io',
                 'git_url': 'https://github.com/FloLangenfeld/nbdev2_tutorial',
                 'lib_path': 'nbdev2_tutorial'},
-  'syms': {'nbdev2_tutorial.core': {'nbdev2_tutorial.core.foo': ('core.html#foo', 'nbdev2_tutorial/core.py')}}}
+  'syms': { 'nbdev2_tutorial.core': {'nbdev2_tutorial.core.foo': ('core.html#foo', 'nbdev2_tutorial/core.py')},
+            'nbdev2_tutorial.main_package': { 'nbdev2_tutorial.main_package.say_hello': ( 'main_package.html#say_hello',
+                                                                                          'nbdev2_tutorial/main_package.py')}}}
