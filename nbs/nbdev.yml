@@ -1,0 +1,9 @@
+project:
+  output-dir: _docs
+
+website:
+  title: "nbdev2_tutorial"
+  site-url: "https://FloLangenfeld.github.io/nbdev2_tutorial"
+  description: "This is just a Repo to test nbdev2 =)"
+  repo-branch: main
+  repo-url: "https://github.com/FloLangenfeld/nbdev2_tutorial"
