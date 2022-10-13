@@ -1,0 +1,30 @@
+[
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "nbdev2_tutorial",
+    "section": "",
+    "text": "This file will become your README and also the index of your documentation."
+  },
+  {
+    "objectID": "index.html#install",
+    "href": "index.html#install",
+    "title": "nbdev2_tutorial",
+    "section": "Install",
+    "text": "Install\npip install nbdev2_tutorial"
+  },
+  {
+    "objectID": "index.html#how-to-use",
+    "href": "index.html#how-to-use",
+    "title": "nbdev2_tutorial",
+    "section": "How to use",
+    "text": "How to use\nTill now, all the package does is to say “Hello” to the user :-)\nRemember, the purpose of this repo is just to walk through the nbdev2 tutorials, and not to develop any usefull python package!\n\nfrom nbdev2_tutorial import main_package as mp\n\n\nmp.say_hello(\"Florent\")\n\n'Hello Florent!'"
+  },
+  {
+    "objectID": "main_package.html",
+    "href": "main_package.html",
+    "title": "main_package",
+    "section": "",
+    "text": "source\n\nsay_hello\n\n say_hello (to:str='Florent', fake:float=4.5)\n\nSay hello to somebody\n\n\n\n\nType\nDefault\nDetails\n\n\n\n\nto\nstr\nFlorent\nA qui dit-on bonjour?\n\n\nfake\nfloat\n4.5\n\n\n\n\nshow_doc(HelloSayer)\n\nsource\n\n\nHelloSayer\n\n HelloSayer (to:str='Florent')\n\nSay hello to to using say_hello\n\n\n\n\nType\nDefault\nDetails\n\n\n\n\nto\nstr\nFlorent\n\n\n\nReturns\nNone\n\nÀ qui dit-on bonjour?\n\n\n\nshow_doc(HelloSayer.say)\n\nsource\n\n\nHelloSayer.say\n\n HelloSayer.say ()\n\nDo the saying\n\nsay_hello(\"Isaac\")\n\n'Hello Isaac!'\n\n\n\ntest_eq(say_hello(), \"Hello Florent!\")\n\n\ntest_eq(say_hello(\"Hamel\"), \"Hello Hamel!\")\n\n\ndisplay(SVG('<svg height=\"100\" xmlns=\"http://www.w3.org/2000/svg\"><circle cx=\"50\" cy=\"50\" r=\"40\"/></svg>'))"
+  }
+]
