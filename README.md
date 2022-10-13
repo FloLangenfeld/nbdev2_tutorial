@@ -14,10 +14,17 @@ pip install nbdev2_tutorial
 
 ## How to use
 
-Fill me in please! Don’t forget code examples:
+Till now, all the package does is to say “Hello” to the user :-)
+
+Remember, the purpose of this repo is just to walk through the nbdev2
+tutorials, and not to develop any usefull python package!
 
 ``` python
-1+1
+from nbdev2_tutorial import main_package as mp
 ```
 
-    2
+``` python
+mp.say_hello("Florent")
+```
+
+    'Hello Florent!'

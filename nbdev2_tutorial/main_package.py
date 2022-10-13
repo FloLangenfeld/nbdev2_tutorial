@@ -4,6 +4,6 @@
 __all__ = ['say_hello']
 
 # %% ../nbs/main_package.ipynb 3
-def say_hello(to):
+def say_hello(to: str = "Florent") -> str:
     "Say hello to somebody"
     return f'Hello {to}!'
